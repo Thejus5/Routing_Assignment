@@ -1,0 +1,25 @@
+nav {
+	display: flex;
+	justify-content: space-between;
+	padding: 5px 30px;
+  background-color: rgb(167, 134, 255);
+  align-items: center;
+}
+
+.logo {
+  height: fit-content;
+}
+
+.navLinks {
+  display: flex;
+  width: 50%;
+  list-style: none;
+  justify-content: space-around;
+}
+.navLinks li {
+	display: inline-block;
+}
+
+.link{
+  color: #fff;
+}
