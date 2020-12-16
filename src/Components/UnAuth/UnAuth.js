@@ -1,8 +1,8 @@
 import classes from './UnAuth.module.css'
 import { Link } from 'react-router-dom'
 
-const unAuth = ()=>{
-  return (
+const unAuth = () => {
+	return (
 		<div className={classes.unAuth}>
 			<p>You are not authorized to view this content</p>
 			<Link to="/">

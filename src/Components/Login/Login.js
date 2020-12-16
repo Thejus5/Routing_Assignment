@@ -14,14 +14,6 @@ const Login = (props) => {
 		}
 	}
 
-	// useEffect(() => {
-	// 	if (localStorage.getItem('user')) {
-	// 		console.log('Login')
-	// 		dispatch(logIn())
-	// 		window.location.pathname = '/home'
-	// 	}
-	// },[])
-
 	return (
 		<div className={classes.loginCard}>
 			<input className={classes.usernameField} type="text" onBlur={props.change} />

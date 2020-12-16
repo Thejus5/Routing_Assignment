@@ -1,7 +1,7 @@
-export const logIn = ()=>{
-  return{
-    type:'LOG_IN'
-  }
+export const logIn = () => {
+	return {
+		type: 'LOG_IN',
+	}
 }
 
 export const logOut = () => {
